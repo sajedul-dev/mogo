@@ -1,0 +1,496 @@
+/* ================ Extra small device =============== */
+
+@media(max-width:575.98px){
+    /* ==================== navbar start here ===================== */
+    .nav_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul {
+        row-gap: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu{
+        padding-top: 20px;
+    }
+    /* ==================== banner part start here ===================== */
+    #banner{
+        padding: 70px 0;
+    }
+    .banner_content h1 {
+        font-size: 25px;
+        line-height: 5px;
+    }
+    .banner_content h2 {
+        font-size: 30px;
+        padding-top: 300px;
+    }
+    .banner_content h1 {
+        font-size: 23px;
+        padding: 15px 0;
+        margin-bottom: 70px;
+    }
+    .banner_content h1::after {
+        bottom: -36px;
+    }
+    /* ==================== about part start here ===================== */
+    #about {
+        padding: 50px 0;
+    }
+    .common_heading p{
+        padding: 10px 10px;
+    }
+    .about_wrapper {
+        margin-top: 50px;
+        row-gap: 10px;
+    }
+    .about_item {
+        width: 100%;
+    }
+    /* ==================== counter part start here ===================== */
+    .counter_wrapper {
+        flex-direction: column;
+    }
+    .counter_wrapper {
+        align-items: center;
+    }
+    .counter_item {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .counter_item span {
+        font-size: 50px;
+    }
+    .counter_item h2 {
+        margin: 15px 0;
+    }
+    /* ==================== service part start here ===================== */
+    .common_heading h3 {
+        font-size: 25px;
+    }
+    .service_main {
+        width: 100%;
+        height: 150px;
+    }
+    .service_text p {
+        margin-top: 15px;
+        line-height: 22px;
+    }
+    .service_item {
+        padding: 0 15px;
+    }
+    .service_wrapper {
+        row-gap: 10px;
+    }
+    .service_item i {
+        padding-top: 18px;
+    }
+    /* ================== testimoial part start here ================= */
+    .testi_main {
+        width: 100%;
+        row-gap: 25px;
+    }
+    .testi_wrapper {
+        flex-direction: column;
+    }
+    .testi_details {
+        width: 100%;
+    }
+    .testi_details p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .left_arrow {
+        padding-left: 38px;
+    }
+    .right_arrow {
+        padding-right: 54px;
+    }
+    .testi_details p::after {
+        bottom: -22px;
+    }
+    .testi_details h3 {
+        font-size: 23px;
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+    .testi_main{
+        column-gap: 10px;
+        padding: 0 15px;
+    }
+    /* ==================== team part start here ===================== */
+    #team {
+        padding: 50px 0;
+    }
+    .team_wrapper {
+        row-gap: 20px;
+        flex-direction: column;
+        margin: 25px 0;
+    }
+    .team_info {
+        padding: 20px 0;
+    }
+    .team_info h4 {
+        padding-top: 10px;
+    }
+    .team_item {
+        width: 100%;
+    }
+    /* ==================== work part start here ===================== */
+    .work_wrapper {
+        flex-direction: column;
+        row-gap: 10px;
+        margin: 40px 0;
+    }
+    .work_item {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .work_inner {
+        padding: 10px 0;
+    }
+    /* ==================== footer part start here ===================== */
+    #footer{
+        padding: 40px 0;
+    }
+    .footer_wrapper {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .mogo_main {
+        width: 100%;
+        text-align: center;
+    }
+    .mogo_main p {
+        padding: 25px 0;
+    }
+    .social {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .social .icon a {
+        padding: 15px 0;
+    }
+    .social .icon a {
+        column-gap: 20px;
+    }
+    .follow {
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .icon{
+        padding: 25px 0;
+    }
+    .blogs_main {
+        width: 100%;
+        margin: 25px 0;
+    }
+    .insta-wrapper {
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .blogs_details .text p {
+        font-size: 11px;
+        line-height: 21px;
+    }
+    .blogs_details .text {
+        padding: 5px 10px;
+    }
+    .blogs_details {
+        column-gap: 5px;
+    }
+    .login input {
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .login button {
+        padding: 19px 15px;
+        font-size: 10px;
+    }
+    .blogs_main h1 {
+        text-align: center;
+    }
+    .instagram_main {
+        width: 100%;
+    }
+    .instagram_main h1 {
+        text-align: center;
+    }
+    /* ==================== copywrite part start here ===================== */
+    #copywrite{
+        background-color: #000;
+    }
+    #copywrite h2 {
+        font-size: 12px;
+        font-weight: 700;
+        color: red;
+    }
+
+}
+/* ======================= Small device ============== */
+
+@media(min-width:576px) and (max-width:767.98px){
+
+        /* ==================== navbar start here ===================== */
+        #nav{
+            background-color: #a88f32;
+        }
+        .nav_wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        .menu ul {
+            row-gap: 20px;
+            flex-direction: column;
+            text-align: center;
+        }
+        .menu{
+            padding-top: 20px;
+        }
+        /* ==================== banner part start here ===================== */
+        #banner{
+            padding: 70px 0;
+        }
+        .banner_content h1 {
+            font-size: 25px;
+            line-height: 5px;
+        }
+        .banner_content h2 {
+            font-size: 76px;
+            padding-top: 300px;
+        }
+        .banner_content h1 {
+            font-size: 45px;
+            padding: 15px 0;
+            margin-bottom: 70px;
+        }
+        .banner_content h1::after {
+            bottom: -36px;
+        }
+        /* ==================== about part start here ===================== */
+        #about {
+            padding: 50px 0;
+        }
+        .common_heading p{
+            padding: 10px 10px;
+        }
+        .common_heading h3 {
+            font-size: 40px;
+        }
+        .common_heading h4 {
+            font-size: 35px;
+        }
+        .about_wrapper {
+            margin-top: 50px;
+            row-gap: 10px;
+        }
+        .about_item {
+            width: 100%;
+        }
+        /* ==================== counter part start here ===================== */
+        .counter_wrapper {
+            align-items: center;
+            padding: 0 15px;
+        }
+        .counter_item {
+            width: 100%;
+            padding: 10px 0;
+        }
+        .counter_item span {
+            font-size: 50px;
+        }
+        .counter_item h2 {
+            margin: 15px 0;
+            font-size: 11px;
+        }
+        /* ==================== service part start here ===================== */
+        .common_heading h4 {
+            padding: 25px 0;
+        }
+        .service_main {
+            width: 100%;
+            height: 190px;
+        }
+        .service_text p {
+            margin-top: 15px;
+            line-height: 22px;
+        }
+        .service_item {
+            flex-direction: column;
+            align-items: center;
+        }
+        .service_wrapper {
+            row-gap: 10px;
+        }
+        .service_item i {
+            padding-top: 18px;
+        }
+        .service_text {
+            text-align: center;
+        }
+        /* ================== testimoial part start here ================= */
+        .testi_main {
+            width: 100%;
+            row-gap: 25px;
+        }
+        .testi_wrapper {
+            flex-direction: column;
+        }
+        .testi_details {
+            width: 100%;
+        }
+        .testi_details p {
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .left_arrow {
+            display: none;
+        }
+        .right_arrow {
+            display: none;
+        }
+        .testi_details p::after {
+            bottom: -22px;
+        }
+        .testi_details h3 {
+            font-size: 23px;
+            margin-top: 15px;
+            margin-left: 70px;
+        }
+        .testi_main{
+            column-gap: 10px;
+            padding: 0 25px;
+        }
+        /* ==================== team part start here ===================== */
+        #team {
+            padding: 50px 0;
+        }
+        .team_wrapper {
+            row-gap: 20px;
+            flex-direction: column;
+            margin: 25px 0;
+        }
+        .team_info {
+            padding: 20px 0;
+        }
+        .team_info h4 {
+            padding-top: 10px;
+            font-size: 18px;
+        }
+        .team_info h3{
+            font-size: 20px;
+        }
+        .team_item {
+            width: 100%;
+        }
+        /* ==================== work part start here ===================== */
+        .work_wrapper {
+            flex-direction: column;
+            row-gap: 10px;
+            margin: 40px 0;
+        }
+        .work_item {
+            width: 100%;
+            padding: 0 10px;
+        }
+        .work_inner {
+            padding: 10px 0;
+        }
+        /* ==================== footer part start here ===================== */
+        #footer{
+            padding: 40px 0;
+        }
+        .footer_wrapper {
+            flex-direction: column;
+            row-gap: 15px;
+        }
+        .mogo_main {
+            width: 100%;
+            text-align: center;
+        }
+        .mogo_main p {
+            padding: 25px 0;
+        }
+        .social {
+            flex-direction: column;
+            padding-bottom: 30px;
+        }
+        .social .icon a {
+            padding: 15px 0;
+        }
+        .social .icon a {
+            column-gap: 20px;
+        }
+        .follow {
+            justify-content: center;
+            flex-direction: column;
+            padding: 15px 0;
+        }
+        .icon{
+            padding: 25px 0;
+        }
+        .blogs_main {
+            width: 100%;
+            margin: 25px 0;
+        }
+        .insta-wrapper {
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        .blogs_details .text p {
+            font-size: 11px;
+            line-height: 21px;
+        }
+        .blogs_details .text {
+            padding: 10px 0;
+            text-align: center;
+        }
+        .blogs_details {
+            column-gap: 5px;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login input {
+            padding: 15px 20px;
+            text-align: center;
+        }
+        .login{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login button {
+            padding: 19px 15px;
+            font-size: 10px;
+        }
+        .blogs_main h1 {
+            text-align: center;
+        }
+        .instagram_main {
+            width: 100%;
+        }
+        .instagram_main h1 {
+            text-align: center;
+        }
+        /* ==================== copywrite part start here ===================== */
+        #copywrite{
+            background-color: #fff;
+        }
+        #copywrite h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #000;
+        }
+    
+    
+}
+
